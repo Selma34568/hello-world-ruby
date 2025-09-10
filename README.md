@@ -13,11 +13,14 @@ bundle exec rackup -o 0.0.0.0 -p 9292
 Open forwarded port 9292 in Codespaces to view the app.
 
 Visit in browser:
+
 http://localhost:9292 (or Codespaces forwarded URL)
+
 → You should see Hello, World!
 
 
 ## ✅ Tests
+
 This project uses RSpec.
 
 Run the tests:
@@ -28,6 +31,7 @@ Expected output:
 1 example, 0 failures
 
 ## 🧹 Code Quality
+
 This project uses RuboCop for linting.
 
 Check style:
@@ -42,6 +46,7 @@ bundle exec rubocop -A
 
 
 hello-world-ruby/
+
 ├── app.rb          # Sinatra app (Hello World endpoint)
 
 ├── config.ru       # Rack configuration
@@ -58,6 +63,7 @@ hello-world-ruby/
 
 
 ## 🎯 Learning Objectives
+
 Use GitHub Codespaces for development
 
 Build a minimal web app in Ruby (Sinatra)
