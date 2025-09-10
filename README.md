@@ -16,7 +16,8 @@ Visit in browser:
 http://localhost:9292 (or Codespaces forwarded URL)
 → You should see Hello, World!
 
-✅ Tests
+
+## ✅ Tests
 This project uses RSpec.
 
 Run the tests:
@@ -26,7 +27,7 @@ Expected output:
 
 1 example, 0 failures
 
-🧹 Code Quality
+## 🧹 Code Quality
 This project uses RuboCop for linting.
 
 Check style:
@@ -37,19 +38,26 @@ Auto-fix safe issues:
 
 bundle exec rubocop -A
 
-📂 Project Structure
+## 📂 Project Structure
 
 
 hello-world-ruby/
 ├── app.rb          # Sinatra app (Hello World endpoint)
+
 ├── config.ru       # Rack configuration
+
 ├── Gemfile         # Dependencies
+
 ├── spec/           # RSpec tests
+
 │   └── app_spec.rb
+
 ├── .rubocop.yml    # RuboCop configuration
+
 └── README.md       # Project documentation
 
-🎯 Learning Objectives
+
+## 🎯 Learning Objectives
 Use GitHub Codespaces for development
 
 Build a minimal web app in Ruby (Sinatra)
@@ -57,17 +65,6 @@ Build a minimal web app in Ruby (Sinatra)
 Add automated tests with RSpec
 
 Run code quality checks with RuboCop
-
-👩‍💻 Author
-Created by Selma34568
-For learning session task: “Hello World app in selected language”
-
-
-
----
-
-👉 Do you want me to also include a **screenshot of the Hello, World! page** in the README (you already have one)? That would look extra nice on GitHub.
-
 
 
 
