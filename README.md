@@ -9,8 +9,6 @@ A simple **Hello World** web app built in Ruby with Sinatra, developed in GitHub
    bundle install
 Start the server:
 
-bash
-Kodu kopyala
 bundle exec rackup -o 0.0.0.0 -p 9292
 Open forwarded port 9292 in Codespaces to view the app.
 
@@ -23,29 +21,25 @@ This project uses RSpec.
 
 Run the tests:
 
-bash
-Kodu kopyala
 bundle exec rspec
 Expected output:
 
-Kodu kopyala
 1 example, 0 failures
+
 🧹 Code Quality
 This project uses RuboCop for linting.
 
 Check style:
 
-bash
-Kodu kopyala
 bundle exec rubocop
 Auto-fix safe issues:
 
-bash
-Kodu kopyala
+
 bundle exec rubocop -A
+
 📂 Project Structure
-bash
-Kodu kopyala
+
+
 hello-world-ruby/
 ├── app.rb          # Sinatra app (Hello World endpoint)
 ├── config.ru       # Rack configuration
@@ -54,6 +48,7 @@ hello-world-ruby/
 │   └── app_spec.rb
 ├── .rubocop.yml    # RuboCop configuration
 └── README.md       # Project documentation
+
 🎯 Learning Objectives
 Use GitHub Codespaces for development
 
@@ -67,8 +62,7 @@ Run code quality checks with RuboCop
 Created by Selma34568
 For learning session task: “Hello World app in selected language”
 
-yaml
-Kodu kopyala
+
 
 ---
 
